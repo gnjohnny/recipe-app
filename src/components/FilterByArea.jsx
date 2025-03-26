@@ -26,6 +26,7 @@ const FilterByArea = ({ selectedCountry }) => {
                                 src={food.strMealThumb}
                                 className="w-full h-[200px]"
                                 alt="found image"
+                                loading="lazy"
                             />
                             <h1 className="text-[var(--text)] font-bold text-lg">
                                 Name:{" "}

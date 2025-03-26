@@ -56,6 +56,7 @@ const HomePage = () => {
                             src="https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg"
                             alt="hero image"
                             className="w-[80%] h-[80%] rounded-full"
+                            loading="lazy"
                         />
                     </div>
                 </div>

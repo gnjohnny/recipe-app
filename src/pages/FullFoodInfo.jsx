@@ -73,6 +73,7 @@ const FullFoodInfo = () => {
                                             src={food.strMealThumb}
                                             alt="food info image"
                                             className="w-full h-full rounded-2xl"
+                                            loading="lazy"
                                         />
                                     </div>
                                 </div>

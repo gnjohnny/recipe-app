@@ -57,7 +57,7 @@ const CatagorizedFoodPage = () => {
                             {" "}
                             <div className="w-full flex justify-start items-start md:justify-center md:items-center">
                                 <figure className="border border-white/30 rounded-b-2xl shadow-white/20 shadow-sm p-1">
-                                    <img src={food.strMealThumb} alt="" />
+                                    <img src={food.strMealThumb} alt="" loading="lazy"/>
                                     <figcaption className="text-[var(--text)] text-lg">
                                         {food.strMeal}
                                     </figcaption>

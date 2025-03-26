@@ -56,6 +56,7 @@ const RandomFood = () => {
                                     src={food.strMealThumb}
                                     alt=""
                                     className="w-full h-full rounded-full"
+                                    loading="lazy"
                                 />
                             </Link>
                         </div>
